@@ -26,7 +26,7 @@ const whenExternalScripts = (items = []) =>
 
 export default defineConfig({
     output: 'static',
-    site: 'https://supergoodmarketing.com',
+    site: 'https://supergoodsystems.com',
 
     integrations: [
         tailwind({
@@ -38,9 +38,13 @@ export default defineConfig({
             include: {
                 tabler: ['*'],
                 "flat-color-icons": [
+                    "genealogy",
+                    "workflow",
+                    "business-contact",
                     "template",
                     "gallery",
                     "approval",
+                    "heat-map",
                     "document",
                     "advertising",
                     "currency-exchange",
@@ -51,6 +55,7 @@ export default defineConfig({
                     "search",
                     "like",
                     "manager",
+                    "conference-call",
                     "feedback",
                     "shop",
                     "approval",

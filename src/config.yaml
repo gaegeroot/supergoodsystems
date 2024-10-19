@@ -1,6 +1,6 @@
 site:
-  name: Super Good Marketing
-  site: 'https://supergoodmarketing.com'
+  name: Super Good Systems
+  site: 'https://supergoodsystems.com'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: Super Good Marketing
-    template: '%s — Super Good Marketing'
-  description: "Marketing for good"
+    default: Super Good Systems
+    template: '%s — Super Good Systems'
+  description: "Automation for good"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: Super Good Marketing
+    site_name: Super Good Systems
     images:
       - url: '~/assets/images/social-share.jpg'
         width: 1173
